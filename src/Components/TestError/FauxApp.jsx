@@ -17,7 +17,7 @@ function ShowMessage() {
 }
 
 const showError = () => {
-  document.getElementById("test-error").style.display = "flex";
+  document.getElementById("test-error").style.display = "block";
   document.getElementById("hide-error").style.display = "initial";
   document.getElementById("show-error").style.display = "none";
 };
